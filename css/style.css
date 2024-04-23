@@ -1,0 +1,42 @@
+html * {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: orange;
+    border-radius: 3px;
+}
+
+nav ul li:hover {
+    background-color: rgba(151, 161, 176, .05)
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+#main-header {
+    height: 35em;
+    padding-bottom: 8em;
+    padding-right: 4em;
+    background-image: url(/img/ian-parker-placeholder-image.jpg.jpg);
+    background-size: cover;
+}
+
+#hello-header {
+    padding-right: 7em;
+}
+
+#welcome-header {
+    height: 25px;
+}
