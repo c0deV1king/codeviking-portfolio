@@ -29,14 +29,24 @@ nav ul li {
     height: 35em;
     padding-bottom: 8em;
     padding-right: 4em;
-    background-image: url(/img/ian-parker-placeholder-image.jpg.jpg);
-    background-size: cover;
 }
 
 #hello-header {
-    padding-right: 7em;
+    /*padding-right: 7em;*/
 }
 
 #welcome-header {
     height: 25px;
+}
+
+#projects-section {
+    background-image: url(/img/nasa-7Cz6bWjdlDs-unsplash.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    height: 15em;
+    width: 50em;
+}
+
+#project-block {
+    padding-top: 5em;
 }
